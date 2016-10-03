@@ -1,0 +1,6 @@
+framework module Pods_AllAboutDelhi {
+  umbrella header "Pods-AllAboutDelhi-umbrella.h"
+
+  export *
+  module * { export * }
+}

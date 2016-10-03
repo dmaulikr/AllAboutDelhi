@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +16,52 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0417" translatesAutoresizingMaskIntoConstraints="NO" id="bMs-BA-iex"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="NAMASTE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uQl-bp-TpL">
+                                <frame key="frameInset" minX="48" minY="300" width="284" height="66"/>
+                                <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="55"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="namaste_white" translatesAutoresizingMaskIntoConstraints="NO" id="CB7-MK-ApK">
+                                <frame key="frameInset" minX="67" minY="436" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uQl-bp-TpL" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="0qV-RA-bRz"/>
+                            <constraint firstItem="CB7-MK-ApK" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.3" id="30P-8O-h1r"/>
+                            <constraint firstItem="uQl-bp-TpL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="9t2-Fn-jRo"/>
+                            <constraint firstAttribute="trailing" secondItem="bMs-BA-iex" secondAttribute="trailing" id="AVK-nS-9SW"/>
+                            <constraint firstItem="CB7-MK-ApK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HhD-QS-Zc9"/>
+                            <constraint firstItem="bMs-BA-iex" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="NXT-0Q-9FT"/>
+                            <constraint firstItem="uQl-bp-TpL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="NXt-Cc-mJe"/>
+                            <constraint firstItem="CB7-MK-ApK" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.3" id="Pet-ss-TSg"/>
+                            <constraint firstItem="CB7-MK-ApK" firstAttribute="top" secondItem="uQl-bp-TpL" secondAttribute="bottom" constant="20" id="QPg-5t-ljI"/>
+                            <constraint firstItem="uQl-bp-TpL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Qxm-Rt-TlC"/>
+                            <constraint firstItem="bMs-BA-iex" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ZAX-LQ-bwU"/>
+                            <constraint firstAttribute="bottom" secondItem="bMs-BA-iex" secondAttribute="bottom" id="lc4-W1-1Qh"/>
+                            <constraint firstItem="uQl-bp-TpL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qgS-jm-KCV"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0qV-RA-bRz"/>
+                                <exclude reference="NXt-Cc-mJe"/>
+                                <exclude reference="Qxm-Rt-TlC"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMG_0417" width="1536" height="1919"/>
+        <image name="namaste_white" width="1200" height="1200"/>
+    </resources>
 </document>

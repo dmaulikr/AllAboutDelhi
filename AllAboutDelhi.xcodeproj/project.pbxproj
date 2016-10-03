@@ -7,14 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C07B3A61D7C946C002B82F5 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07B3A51D7C946C002B82F5 /* WeatherVC.swift */; };
+		9C07B3A81D7C94D0002B82F5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07B3A71D7C94D0002B82F5 /* Weather.swift */; };
+		9C07B3AC1D7D78C5002B82F5 /* ImageGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07B3AB1D7D78C5002B82F5 /* ImageGalleryCell.swift */; };
+		9C07B3AE1D7D8C8D002B82F5 /* CenterCellCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C07B3AD1D7D8C8D002B82F5 /* CenterCellCollectionViewFlowLayout.swift */; };
+		9C0EE5711D33BD3A00880F29 /* TopFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0EE5701D33BD3A00880F29 /* TopFeed.swift */; };
+		9C0EE5751D33BEDE00880F29 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0EE5741D33BEDE00880F29 /* Feed.swift */; };
+		9C1857581D7572DD006EC49A /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1857571D7572DD006EC49A /* Bars.swift */; };
+		9C18575C1D75D469006EC49A /* BarMapDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18575B1D75D469006EC49A /* BarMapDetailVC.swift */; };
+		9C18575E1D75D911006EC49A /* BarMapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18575D1D75D911006EC49A /* BarMapViewVC.swift */; };
+		9C1857601D75F40D006EC49A /* RestaurantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18575F1D75F40D006EC49A /* RestaurantsVC.swift */; };
+		9C1857621D75F596006EC49A /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1857611D75F596006EC49A /* RestaurantCell.swift */; };
+		9C1857641D769BBC006EC49A /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1857631D769BBC006EC49A /* Restaurants.swift */; };
+		9C1857661D76C98F006EC49A /* RestaurantMapDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1857651D76C98F006EC49A /* RestaurantMapDetailVC.swift */; };
+		9C18576A1D76CCBB006EC49A /* RestaurantMapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1857691D76CCBB006EC49A /* RestaurantMapViewVC.swift */; };
+		9C18576C1D77192A006EC49A /* CafeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18576B1D77192A006EC49A /* CafeVC.swift */; };
+		9C18576E1D771DC2006EC49A /* CafeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18576D1D771DC2006EC49A /* CafeCell.swift */; };
+		9C1857701D772BB0006EC49A /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18576F1D772BB0006EC49A /* Cafe.swift */; };
+		9C1857721D773A7C006EC49A /* CafeMapDetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1857711D773A7C006EC49A /* CafeMapDetailVc.swift */; };
+		9C1857741D773C10006EC49A /* CafeMapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1857731D773C10006EC49A /* CafeMapViewVC.swift */; };
+		9C1857761D79B51E006EC49A /* AboutDelhiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1857751D79B51E006EC49A /* AboutDelhiVC.swift */; };
+		9C1857781D7AA821006EC49A /* ShoppingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1857771D7AA821006EC49A /* ShoppingVC.swift */; };
+		9C18577A1D7AA9C7006EC49A /* ShoppingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1857791D7AA9C7006EC49A /* ShoppingCell.swift */; };
+		9C18577C1D7AAE24006EC49A /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C18577B1D7AAE24006EC49A /* Shopping.swift */; };
+		9C277F141D40E71200FC5A18 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C277F131D40E71200FC5A18 /* Artwork.swift */; };
+		9C277F181D43304F00FC5A18 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C277F171D43304F00FC5A18 /* Place.swift */; };
+		9C277F1C1D4676EB00FC5A18 /* AttractionMapDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C277F1B1D4676EB00FC5A18 /* AttractionMapDetailVC.swift */; };
 		9C2C401F1D2A8307009E2D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C401E1D2A8307009E2D5E /* AppDelegate.swift */; };
 		9C2C40211D2A8307009E2D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C40201D2A8307009E2D5E /* ViewController.swift */; };
 		9C2C40241D2A8307009E2D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2C40221D2A8307009E2D5E /* Main.storyboard */; };
 		9C2C40261D2A8307009E2D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2C40251D2A8307009E2D5E /* Assets.xcassets */; };
 		9C2C40291D2A8307009E2D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2C40271D2A8307009E2D5E /* LaunchScreen.storyboard */; };
+		9C2C40331D2D36DC009E2D5E /* MenuItemPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C40321D2D36DC009E2D5E /* MenuItemPictures.swift */; };
+		9C2C40381D2D37AC009E2D5E /* BackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C40371D2D37AC009E2D5E /* BackgroundImage.swift */; };
+		9C2C403A1D2FFA0E009E2D5E /* MenuItemsBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C40391D2FFA0E009E2D5E /* MenuItemsBgView.swift */; };
+		9C5235571D7ABDC3006DA261 /* ShoppingMapDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5235561D7ABDC3006DA261 /* ShoppingMapDetailVC.swift */; };
+		9C5235591D7ABF26006DA261 /* ShoppingMapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5235581D7ABF26006DA261 /* ShoppingMapViewVC.swift */; };
+		9C5DFCA11D317BB400931E8A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DFCA01D317BB400931E8A /* DataManager.swift */; };
+		9C62CECD1D6FF2B300578B7B /* BarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62CECC1D6FF2B300578B7B /* BarsVC.swift */; };
+		9C62CED31D6FF52500578B7B /* BarsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62CED21D6FF52500578B7B /* BarsCell.swift */; };
+		9C6A53321D34092500302D6F /* MenuButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A53311D34092500302D6F /* MenuButtons.swift */; };
+		9C6A53341D34BB1700302D6F /* PlacesToVisitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A53331D34BB1700302D6F /* PlacesToVisitVC.swift */; };
+		9C6A53361D35515900302D6F /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A53351D35515900302D6F /* PlaceCell.swift */; };
+		9C6A53381D39F42800302D6F /* PlacesCustomFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A53371D39F42800302D6F /* PlacesCustomFlow.swift */; };
+		9C6A533A1D3B6A5900302D6F /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A53391D3B6A5900302D6F /* AboutVC.swift */; };
+		9C771A1F1D75304600CCB1AB /* FoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C771A1E1D75304600CCB1AB /* FoodVC.swift */; };
+		9CB5CCBB1D54F5990068CD7C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5CCBA1D54F5990068CD7C /* Constants.swift */; };
+		9CDB813F1D5A4F0D00CCD086 /* AttractionMapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDB813E1D5A4F0D00CCD086 /* AttractionMapViewVC.swift */; };
+		9CDFA7D81D31447200BC456E /* delhi.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CDFA7D71D31447200BC456E /* delhi.json */; };
+		9CF50ECE1D9150C3001F5CCE /* TransportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF50ECD1D9150C3001F5CCE /* TransportVC.swift */; };
+		AF38B25FD5FC476C7A56EC0D /* Pods_AllAboutDelhi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE744B08724266E4507E5606 /* Pods_AllAboutDelhi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1521087426B5DD1B18174329 /* Pods-AllAboutDelhi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllAboutDelhi.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllAboutDelhi/Pods-AllAboutDelhi.release.xcconfig"; sourceTree = "<group>"; };
+		9C07B3A51D7C946C002B82F5 /* WeatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		9C07B3A71D7C94D0002B82F5 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		9C07B3AB1D7D78C5002B82F5 /* ImageGalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGalleryCell.swift; sourceTree = "<group>"; };
+		9C07B3AD1D7D8C8D002B82F5 /* CenterCellCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCellCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		9C0EE5701D33BD3A00880F29 /* TopFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopFeed.swift; sourceTree = "<group>"; };
+		9C0EE5741D33BEDE00880F29 /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		9C1857571D7572DD006EC49A /* Bars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bars.swift; sourceTree = "<group>"; };
+		9C18575B1D75D469006EC49A /* BarMapDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarMapDetailVC.swift; sourceTree = "<group>"; };
+		9C18575D1D75D911006EC49A /* BarMapViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarMapViewVC.swift; sourceTree = "<group>"; };
+		9C18575F1D75F40D006EC49A /* RestaurantsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsVC.swift; sourceTree = "<group>"; };
+		9C1857611D75F596006EC49A /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		9C1857631D769BBC006EC49A /* Restaurants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		9C1857651D76C98F006EC49A /* RestaurantMapDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantMapDetailVC.swift; sourceTree = "<group>"; };
+		9C1857691D76CCBB006EC49A /* RestaurantMapViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantMapViewVC.swift; sourceTree = "<group>"; };
+		9C18576B1D77192A006EC49A /* CafeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeVC.swift; sourceTree = "<group>"; };
+		9C18576D1D771DC2006EC49A /* CafeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeCell.swift; sourceTree = "<group>"; };
+		9C18576F1D772BB0006EC49A /* Cafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		9C1857711D773A7C006EC49A /* CafeMapDetailVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeMapDetailVc.swift; sourceTree = "<group>"; };
+		9C1857731D773C10006EC49A /* CafeMapViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeMapViewVC.swift; sourceTree = "<group>"; };
+		9C1857751D79B51E006EC49A /* AboutDelhiVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutDelhiVC.swift; sourceTree = "<group>"; };
+		9C1857771D7AA821006EC49A /* ShoppingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingVC.swift; sourceTree = "<group>"; };
+		9C1857791D7AA9C7006EC49A /* ShoppingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCell.swift; sourceTree = "<group>"; };
+		9C18577B1D7AAE24006EC49A /* Shopping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
+		9C277F131D40E71200FC5A18 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		9C277F171D43304F00FC5A18 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		9C277F1B1D4676EB00FC5A18 /* AttractionMapDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionMapDetailVC.swift; sourceTree = "<group>"; };
 		9C2C401B1D2A8307009E2D5E /* AllAboutDelhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllAboutDelhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2C401E1D2A8307009E2D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C2C40201D2A8307009E2D5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +94,26 @@
 		9C2C40251D2A8307009E2D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C2C40281D2A8307009E2D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C2C402A1D2A8307009E2D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2C40321D2D36DC009E2D5E /* MenuItemPictures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemPictures.swift; sourceTree = "<group>"; };
+		9C2C40371D2D37AC009E2D5E /* BackgroundImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundImage.swift; sourceTree = "<group>"; };
+		9C2C40391D2FFA0E009E2D5E /* MenuItemsBgView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsBgView.swift; sourceTree = "<group>"; };
+		9C5235561D7ABDC3006DA261 /* ShoppingMapDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingMapDetailVC.swift; sourceTree = "<group>"; };
+		9C5235581D7ABF26006DA261 /* ShoppingMapViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingMapViewVC.swift; sourceTree = "<group>"; };
+		9C5DFCA01D317BB400931E8A /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9C62CECC1D6FF2B300578B7B /* BarsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarsVC.swift; sourceTree = "<group>"; };
+		9C62CED21D6FF52500578B7B /* BarsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarsCell.swift; sourceTree = "<group>"; };
+		9C6A53311D34092500302D6F /* MenuButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButtons.swift; sourceTree = "<group>"; };
+		9C6A53331D34BB1700302D6F /* PlacesToVisitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesToVisitVC.swift; sourceTree = "<group>"; };
+		9C6A53351D35515900302D6F /* PlaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		9C6A53371D39F42800302D6F /* PlacesCustomFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesCustomFlow.swift; sourceTree = "<group>"; };
+		9C6A53391D3B6A5900302D6F /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		9C771A1E1D75304600CCB1AB /* FoodVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodVC.swift; sourceTree = "<group>"; };
+		9CB5CCBA1D54F5990068CD7C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9CDB813E1D5A4F0D00CCD086 /* AttractionMapViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionMapViewVC.swift; sourceTree = "<group>"; };
+		9CDFA7D71D31447200BC456E /* delhi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = delhi.json; sourceTree = "<group>"; };
+		9CF50ECD1D9150C3001F5CCE /* TransportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportVC.swift; sourceTree = "<group>"; };
+		DE744B08724266E4507E5606 /* Pods_AllAboutDelhi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllAboutDelhi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9F9E75B05A61DBA38C0BAA /* Pods-AllAboutDelhi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllAboutDelhi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllAboutDelhi/Pods-AllAboutDelhi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF38B25FD5FC476C7A56EC0D /* Pods_AllAboutDelhi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +132,11 @@
 			isa = PBXGroup;
 			children = (
 				9C2C401D1D2A8307009E2D5E /* AllAboutDelhi */,
+				9CDFA7D51D31442600BC456E /* Util */,
+				9CDFA7D61D31443100BC456E /* Resources */,
 				9C2C401C1D2A8307009E2D5E /* Products */,
+				B16A1F48DDEB8DEB216E9AE3 /* Pods */,
+				B6C7BE0F48950CAA62E52601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +151,115 @@
 		9C2C401D1D2A8307009E2D5E /* AllAboutDelhi */ = {
 			isa = PBXGroup;
 			children = (
+				9C2C40341D2D3732009E2D5E /* Model */,
+				9C2C40351D2D374A009E2D5E /* View */,
+				9C2C40361D2D3753009E2D5E /* Controller */,
 				9C2C401E1D2A8307009E2D5E /* AppDelegate.swift */,
-				9C2C40201D2A8307009E2D5E /* ViewController.swift */,
 				9C2C40221D2A8307009E2D5E /* Main.storyboard */,
 				9C2C40251D2A8307009E2D5E /* Assets.xcassets */,
 				9C2C40271D2A8307009E2D5E /* LaunchScreen.storyboard */,
 				9C2C402A1D2A8307009E2D5E /* Info.plist */,
 			);
 			path = AllAboutDelhi;
+			sourceTree = "<group>";
+		};
+		9C2C40341D2D3732009E2D5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DFCA01D317BB400931E8A /* DataManager.swift */,
+				9C0EE5701D33BD3A00880F29 /* TopFeed.swift */,
+				9C0EE5741D33BEDE00880F29 /* Feed.swift */,
+				9C277F131D40E71200FC5A18 /* Artwork.swift */,
+				9C277F171D43304F00FC5A18 /* Place.swift */,
+				9C1857571D7572DD006EC49A /* Bars.swift */,
+				9C1857631D769BBC006EC49A /* Restaurants.swift */,
+				9C18576F1D772BB0006EC49A /* Cafe.swift */,
+				9C18577B1D7AAE24006EC49A /* Shopping.swift */,
+				9C07B3A71D7C94D0002B82F5 /* Weather.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9C2C40351D2D374A009E2D5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C2C40321D2D36DC009E2D5E /* MenuItemPictures.swift */,
+				9C2C40371D2D37AC009E2D5E /* BackgroundImage.swift */,
+				9C2C40391D2FFA0E009E2D5E /* MenuItemsBgView.swift */,
+				9C6A53311D34092500302D6F /* MenuButtons.swift */,
+				9C6A53351D35515900302D6F /* PlaceCell.swift */,
+				9C6A53371D39F42800302D6F /* PlacesCustomFlow.swift */,
+				9CDB813E1D5A4F0D00CCD086 /* AttractionMapViewVC.swift */,
+				9C62CED21D6FF52500578B7B /* BarsCell.swift */,
+				9C18575D1D75D911006EC49A /* BarMapViewVC.swift */,
+				9C1857611D75F596006EC49A /* RestaurantCell.swift */,
+				9C1857691D76CCBB006EC49A /* RestaurantMapViewVC.swift */,
+				9C18576D1D771DC2006EC49A /* CafeCell.swift */,
+				9C1857731D773C10006EC49A /* CafeMapViewVC.swift */,
+				9C1857791D7AA9C7006EC49A /* ShoppingCell.swift */,
+				9C5235581D7ABF26006DA261 /* ShoppingMapViewVC.swift */,
+				9C07B3AB1D7D78C5002B82F5 /* ImageGalleryCell.swift */,
+				9C07B3AD1D7D8C8D002B82F5 /* CenterCellCollectionViewFlowLayout.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9C2C40361D2D3753009E2D5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C2C40201D2A8307009E2D5E /* ViewController.swift */,
+				9C6A53331D34BB1700302D6F /* PlacesToVisitVC.swift */,
+				9C6A53391D3B6A5900302D6F /* AboutVC.swift */,
+				9C277F1B1D4676EB00FC5A18 /* AttractionMapDetailVC.swift */,
+				9C62CECC1D6FF2B300578B7B /* BarsVC.swift */,
+				9C771A1E1D75304600CCB1AB /* FoodVC.swift */,
+				9C18575B1D75D469006EC49A /* BarMapDetailVC.swift */,
+				9C18575F1D75F40D006EC49A /* RestaurantsVC.swift */,
+				9C1857651D76C98F006EC49A /* RestaurantMapDetailVC.swift */,
+				9C18576B1D77192A006EC49A /* CafeVC.swift */,
+				9C1857711D773A7C006EC49A /* CafeMapDetailVc.swift */,
+				9C1857751D79B51E006EC49A /* AboutDelhiVC.swift */,
+				9C1857771D7AA821006EC49A /* ShoppingVC.swift */,
+				9C5235561D7ABDC3006DA261 /* ShoppingMapDetailVC.swift */,
+				9C07B3A51D7C946C002B82F5 /* WeatherVC.swift */,
+				9CF50ECD1D9150C3001F5CCE /* TransportVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9CDFA7D51D31442600BC456E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9CB5CCBA1D54F5990068CD7C /* Constants.swift */,
+			);
+			name = Util;
+			path = AllAboutDelhi;
+			sourceTree = "<group>";
+		};
+		9CDFA7D61D31443100BC456E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CDFA7D71D31447200BC456E /* delhi.json */,
+			);
+			name = Resources;
+			path = AllAboutDelhi;
+			sourceTree = "<group>";
+		};
+		B16A1F48DDEB8DEB216E9AE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF9F9E75B05A61DBA38C0BAA /* Pods-AllAboutDelhi.debug.xcconfig */,
+				1521087426B5DD1B18174329 /* Pods-AllAboutDelhi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6C7BE0F48950CAA62E52601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE744B08724266E4507E5606 /* Pods_AllAboutDelhi.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C2C402D1D2A8307009E2D5E /* Build configuration list for PBXNativeTarget "AllAboutDelhi" */;
 			buildPhases = (
+				17A0EDCE055D1819E3D3BB1A /* [CP] Check Pods Manifest.lock */,
 				9C2C40171D2A8307009E2D5E /* Sources */,
 				9C2C40181D2A8307009E2D5E /* Frameworks */,
 				9C2C40191D2A8307009E2D5E /* Resources */,
+				D52FC700222616DE9DF9246B /* [CP] Embed Pods Frameworks */,
+				E3051C39F030C8FD14F5FBE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +292,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "DUSHYANT DAHIYA";
 				TargetAttributes = {
 					9C2C401A1D2A8307009E2D5E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ENGEZACPBP;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -123,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C2C40291D2A8307009E2D5E /* LaunchScreen.storyboard in Resources */,
+				9CDFA7D81D31447200BC456E /* delhi.json in Resources */,
 				9C2C40261D2A8307009E2D5E /* Assets.xcassets in Resources */,
 				9C2C40241D2A8307009E2D5E /* Main.storyboard in Resources */,
 			);
@@ -130,13 +334,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17A0EDCE055D1819E3D3BB1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D52FC700222616DE9DF9246B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AllAboutDelhi/Pods-AllAboutDelhi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3051C39F030C8FD14F5FBE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AllAboutDelhi/Pods-AllAboutDelhi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C2C40171D2A8307009E2D5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C62CECD1D6FF2B300578B7B /* BarsVC.swift in Sources */,
+				9C07B3A61D7C946C002B82F5 /* WeatherVC.swift in Sources */,
+				9C6A533A1D3B6A5900302D6F /* AboutVC.swift in Sources */,
+				9C1857781D7AA821006EC49A /* ShoppingVC.swift in Sources */,
+				9C5235571D7ABDC3006DA261 /* ShoppingMapDetailVC.swift in Sources */,
 				9C2C40211D2A8307009E2D5E /* ViewController.swift in Sources */,
+				9C07B3AE1D7D8C8D002B82F5 /* CenterCellCollectionViewFlowLayout.swift in Sources */,
+				9C18575E1D75D911006EC49A /* BarMapViewVC.swift in Sources */,
+				9C0EE5751D33BEDE00880F29 /* Feed.swift in Sources */,
 				9C2C401F1D2A8307009E2D5E /* AppDelegate.swift in Sources */,
+				9C18577C1D7AAE24006EC49A /* Shopping.swift in Sources */,
+				9C2C40331D2D36DC009E2D5E /* MenuItemPictures.swift in Sources */,
+				9C1857761D79B51E006EC49A /* AboutDelhiVC.swift in Sources */,
+				9C18577A1D7AA9C7006EC49A /* ShoppingCell.swift in Sources */,
+				9C07B3A81D7C94D0002B82F5 /* Weather.swift in Sources */,
+				9C5DFCA11D317BB400931E8A /* DataManager.swift in Sources */,
+				9C277F1C1D4676EB00FC5A18 /* AttractionMapDetailVC.swift in Sources */,
+				9C6A53341D34BB1700302D6F /* PlacesToVisitVC.swift in Sources */,
+				9CF50ECE1D9150C3001F5CCE /* TransportVC.swift in Sources */,
+				9C6A53321D34092500302D6F /* MenuButtons.swift in Sources */,
+				9C2C40381D2D37AC009E2D5E /* BackgroundImage.swift in Sources */,
+				9C18576A1D76CCBB006EC49A /* RestaurantMapViewVC.swift in Sources */,
+				9C277F141D40E71200FC5A18 /* Artwork.swift in Sources */,
+				9C277F181D43304F00FC5A18 /* Place.swift in Sources */,
+				9C1857601D75F40D006EC49A /* RestaurantsVC.swift in Sources */,
+				9C18575C1D75D469006EC49A /* BarMapDetailVC.swift in Sources */,
+				9C2C403A1D2FFA0E009E2D5E /* MenuItemsBgView.swift in Sources */,
+				9C1857621D75F596006EC49A /* RestaurantCell.swift in Sources */,
+				9C1857741D773C10006EC49A /* CafeMapViewVC.swift in Sources */,
+				9C6A53381D39F42800302D6F /* PlacesCustomFlow.swift in Sources */,
+				9C1857641D769BBC006EC49A /* Restaurants.swift in Sources */,
+				9CDB813F1D5A4F0D00CCD086 /* AttractionMapViewVC.swift in Sources */,
+				9C1857701D772BB0006EC49A /* Cafe.swift in Sources */,
+				9C0EE5711D33BD3A00880F29 /* TopFeed.swift in Sources */,
+				9C18576E1D771DC2006EC49A /* CafeCell.swift in Sources */,
+				9C62CED31D6FF52500578B7B /* BarsCell.swift in Sources */,
+				9C5235591D7ABF26006DA261 /* ShoppingMapViewVC.swift in Sources */,
+				9C6A53361D35515900302D6F /* PlaceCell.swift in Sources */,
+				9C18576C1D77192A006EC49A /* CafeVC.swift in Sources */,
+				9C771A1F1D75304600CCB1AB /* FoodVC.swift in Sources */,
+				9C1857661D76C98F006EC49A /* RestaurantMapDetailVC.swift in Sources */,
+				9C1857721D773A7C006EC49A /* CafeMapDetailVc.swift in Sources */,
+				9C1857581D7572DD006EC49A /* Bars.swift in Sources */,
+				9CB5CCBB1D54F5990068CD7C /* Constants.swift in Sources */,
+				9C07B3AC1D7D78C5002B82F5 /* ImageGalleryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +471,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -221,8 +518,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -241,29 +540,44 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		9C2C402E1D2A8307009E2D5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9F9E75B05A61DBA38C0BAA /* Pods-AllAboutDelhi.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AllAboutDelhi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dushyant.AllAboutDelhi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		9C2C402F1D2A8307009E2D5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1521087426B5DD1B18174329 /* Pods-AllAboutDelhi.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AllAboutDelhi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dushyant.AllAboutDelhi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +600,7 @@
 				9C2C402F1D2A8307009E2D5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
